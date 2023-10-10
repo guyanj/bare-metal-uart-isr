@@ -3,4 +3,6 @@
 
 #include "stm32f4xx.h"
 
+void dma_uart_unit(void);
+
 #endif
