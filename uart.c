@@ -16,3 +16,9 @@ void debug_uart_init(void)
     RCC->AHB1ENR |= GPIOAEN;
     // I didn't type all the rest of it..
 }
+
+
+void dma_uart_unit(void)
+{
+    // just dma function for git tutorial.
+}
